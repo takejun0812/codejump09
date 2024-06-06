@@ -180,7 +180,75 @@ li {
             }
         }
     }
+
+    #footer {
+        background-color: black;
+        color: white;
+        line-height: 24.5px;
+        font-size: 14.4px;
+        font-weight: lighter;
+
+        .contact {
+            padding: 50px 0;
+
+            .contact-title {
+                text-align: center;
+                font-size: 36px;
+                line-height: 61.2px;
+            }
+
+            .contact-content {
+                display: flex;
+                width: 100%;
+                padding: 30px 0;
+                column-gap: 150px;
+
+                .contact-texts {
+                    width: 50%;
+                    p {
+                        margin-bottom: 30px;
+                    }
+                }
+                .contact-form {
+                    width: 50%;
+                    label {
+                        display: block;
+                    }
+                    input {
+                        height: 44px;
+                    }
+                    textarea {
+                        resize: none;
+                        height: 68px;
+                    }
+                    .form-text {
+                        display: block;
+                        width: 100%;
+                        background-color: white;
+                    }
     
+                    .form-item {
+                        margin-bottom: 20px;
+                    }
+    
+                    .submit-btn {
+                        background-color: black;
+                        color: white;
+                        border: 1px solid white;
+                        padding: 12px 79.5px;
+                        pointer-events: auto;
+                    }
+                }
+            }
+        }
+        .footer-company {
+            font-size: 12px;
+            line-height: 20.4px;
+            text-align: center;
+            padding: 10px 0 2px 0;
+        }
+    }
+
 @media screen and (max-width:600px) {
     #header {
         padding: 20px 16px;
@@ -214,5 +282,73 @@ li {
               }
         }
     }
-}
+    #footer {
+        background-color: black;
+        color: white;
+        line-height: 24.5px;
+        font-size: 14.4px;
+        font-weight: lighter;
 
+        .contact {
+            padding: 50px 0;
+
+            .contact-title {
+                text-align: center;
+                font-size: 36px;
+                line-height: 61.2px;
+            }
+
+            .contact-content {
+                display: flex;
+                width: 100%;
+                padding: 30px 0;
+                column-gap: 0;
+                flex-flow: column;
+
+                .contact-texts {
+                    width: 100%;
+                    p {
+                        margin-bottom: 30px;
+                    }
+                }
+                .contact-form {
+                    width: 100%;
+                    label {
+                        display: block;
+                    }
+                    input {
+                        height: 44px;
+                    }
+                    textarea {
+                        resize: none;
+                        height: 68px;
+                    }
+                    .form-text {
+                        display: block;
+                        width: 100%;
+                        background-color: white;
+                    }
+    
+                    .form-item {
+                        margin-bottom: 20px;
+                    }
+    
+                    .submit-btn {
+                        background-color: black;
+                        color: white;
+                        border: 1px solid white;
+                        padding: 12px 79.5px;
+                        pointer-events: auto;
+                    }
+                }
+            }
+        }
+        .footer-company {
+            font-size: 12px;
+            line-height: 20.4px;
+            text-align: center;
+            padding: 10px 0 2px 0;
+        }
+    }
+
+}
