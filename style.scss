@@ -1,4 +1,4 @@
-charset "UTF-8";
+@charset "UTF-8";
 
 /* 全体で適用するもの */
 * {
@@ -20,7 +20,23 @@ a {
 
 li {
     list-style: none;
-    .huge {
-        
+}
+
+#main {
+    .section-title {
+        font-size: 36px;
+        line-height: 61.2px;
+        text-align: center;
+    }
+
+    .mainvisual {
+        video {
+            width: 100vw;
+        }
+    }
+
+    .pickup {
+        margin-top: 100px;
     }
 }
+
