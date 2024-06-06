@@ -293,16 +293,6 @@ li {
     margin-bottom: 20px;
   }
   #footer .contact .contact-content .contact-form .submit-btn {
-    background-color: black;
-    color: white;
-    border: 1px solid white;
-    padding: 12px 79.5px;
-    pointer-events: auto;
-  }
-  #footer .footer-company {
-    font-size: 12px;
-    line-height: 20.4px;
-    text-align: center;
-    padding: 10px 0 2px 0;
+    width: 100%;
   }
 }/*# sourceMappingURL=style.css.map */
