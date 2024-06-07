@@ -41,6 +41,7 @@ $(function () {
       $('a[href*="#"]').click(function () {
         var elmHash = $(this).attr('href');
         var pos = $(elmHash).offset().top-70;
+        // swing追加　　始めは遅く、途中は速く、最後は遅くアニメーションが進行する
         $('body,html').animate({scrollTop: pos}, 500);
         return false;
     });
