@@ -26,14 +26,22 @@
       <div class="nav-wrapper">
         <nav class="header-nav">
           <ul class="header-nav_top">
-            <li><a href="#">PICK UP</a></li>
-            <li><a href="#">FEATURE</a></li>
-            <li><a href="#">CONTACT</a></li>
+            <li><a href="#pickup">PICK UP</a></li>
+            <li><a href="#feature">FEATURE</a></li>
+            <li><a href="#contact">CONTACT</a></li>
           </ul>
           <ul class="header-nav_bottom">
-            <li><a href="#">Twitter</a></li>
-            <li><a href="#">facebook</a></li>
-            <li><a href="#">instagram</a></li>
+            <li>
+              <a target="_blank" href="https://x.com/?lang=ja">Twitter</a>
+            </li>
+            <li>
+              <a target="_blank" href="https://www.facebook.com/?locale=ja_JP"
+                >facebook</a
+              >
+            </li>
+            <li>
+              <a target="_blank" href="https://www.instagram.com/">instagram</a>
+            </li>
           </ul>
         </nav>
       </div>
@@ -54,7 +62,7 @@
           loop
         ></video>
       </div>
-      <section class="pickup">
+      <section id="pickup" class="pickup">
         <h2 class="section-title">PICK UP</h2>
         <div class="slide">
           <ul class="slide-items">
@@ -70,7 +78,7 @@
           </ul>
         </div>
       </section>
-      <section class="feature wrapper">
+      <section id="feature" class="feature wrapper">
         <h2 class="section-title">FEATURE</h2>
         <div class="feature-content">
           <div class="feature-item">
@@ -184,6 +192,45 @@
         </div>
       </section>
     </main>
+    <footer id="footer">
+      <div id="contact" class="contact wrapper">
+        <h2 class="contact-title">CONTACT</h2>
+        <div class="contact-content">
+          <div class="contact-texts">
+            <p>テキストテキストテキスト</p>
+            <p>
+              テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+            </p>
+            <p>
+              テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+            </p>
+          </div>
+          <form action="" class="contact-form">
+            <div class="form-item">
+              <label for="name">Name:</label>
+              <input class="form-text" type="text" id="name" />
+            </div>
+            <div class="form-item">
+              <label for="mail">Mail:</label>
+              <input class="form-text" type="text" id="mail" />
+            </div>
+            <div class="form-item">
+              <label for="message">Message:</label>
+              <textarea
+                class="form-text"
+                name=""
+                id="message"
+                cols="30"
+                rows="10"
+              ></textarea>
+            </div>
+            <input type="submit" class="submit-btn" value="SEND" />
+          </form>
+        </div>
+      </div>
+      <p class="footer-company">&copy;Sneakers</p>
+    </footer>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="./jquery.inview.min.js"></script>
     <script
