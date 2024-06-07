@@ -165,38 +165,38 @@ li {
   margin-top: 100px;
   margin-bottom: 65px;
 }
-#main .feature .feature-content {
+#main .feature-content {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(343px, 1fr));
   grid-column-gap: 27px;
   grid-row-gap: 26px;
 }
-#main .feature .feature-content .feature-item {
+#main .feature-content .feature-item {
   box-shadow: 1px 0 5px 1px #999;
 }
-#main .feature .feature-content .feature-item .feature-img {
+#main .feature-content .feature-item .feature-img {
   transform: translate3d(0, 50px, 0);
   transition: 1s;
   opacity: 0;
 }
-#main .feature .feature-content .feature-item .feature-img img {
+#main .feature-content .feature-item .feature-img img {
   width: 100%;
 }
-#main .feature .feature-content .feature-item .feature-img.animated {
+#main .feature-content .feature-item .feature-img.animated {
   transform: translate3d(0, 0, 0);
   opacity: 1;
 }
-#main .feature .feature-content .feature-item .feature-texts {
+#main .feature-content .feature-item .feature-texts {
   padding: 20px 30px 22px 30px;
   font-size: 12px;
   line-height: 20.4px;
 }
-#main .feature .feature-content .feature-item .feature-texts .shoes-name {
+#main .feature-content .feature-item .feature-texts .shoes-name {
   margin: 14px 0;
   font-size: 14.4px;
   line-height: 24.5px;
 }
-#main .feature .feature-content .feature-item .feature-texts .date {
+#main .feature-content .feature-item .feature-texts .date {
   text-align: right;
 }
 

@@ -5,6 +5,13 @@ $(function () {
         $('.nav-wrapper').toggleClass('fade');
     })
 
+    $(function () {
+        $(".header-nav ul li a").on("click", function () {
+            $('.burger_btn.close').removeClass('close');
+            $('.nav-wrapper.fade').removeClass('fade');
+        })
+    })
+
     $('.slide-items').slick({
         centerMode: true,
         slidesToShow: 5,
